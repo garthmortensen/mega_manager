@@ -1,0 +1,8 @@
+repo_url,name_with_namespace,description,web_url,visibility,archived,default_branch,topics,star_count,forks_count,open_issues_count,open_mr_count,created_at,last_activity_at,latest_pipeline_status,latest_pipeline_created_at,top_language,languages_json,latest_commit_sha,latest_commit_message,latest_commit_date,latest_commit_author,project_id,fetch_errors
+https://gitlab.com/gitlab-com/runbooks,GitLab.com / Runbooks,"Runbooks for the stressed on-call
+
+https://runbooks.gitlab.com
+
+Mirrored to https://ops.gitlab.net/gitlab-com/runbooks
+",https://gitlab.com/gitlab-com/runbooks,public,False,master,,613,284,44,111,2016-05-04T16:13:45.440Z,2026-04-16T01:58:35.598Z,,,Jsonnet,"{""Jsonnet"": 85.74, ""Ruby"": 7.82, ""Shell"": 5.53, ""Go"": 0.33, ""TypeScript"": 0.25}",33203c6d1375,Merge branch 'pg/kubernetes-mixin-rules' into 'master',2026-04-16T12:52:09.000+12:00,Pierre Guinoiseau,1148549,latest pipeline unavailable
+https://gitlab.com/gitlab-org/gitlab,GitLab.org / GitLab,"GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.",https://gitlab.com/gitlab-org/gitlab,public,False,master,"hacktoberfest, javascript, ruby, vue.js",5987,12023,47879,2698,2015-05-20T10:47:11.949Z,2026-04-16T02:34:08.002Z,running,2026-04-16T02:57:40.919Z,Ruby,"{""Ruby"": 68.33, ""JavaScript"": 19.37, ""Vue"": 7.67, ""PLpgSQL"": 2.24, ""Haml"": 1.03}",154400765ecb,Merge branch 'requarantine-flaky-n-plus-1-specs' into 'master',2026-04-16T13:15:58.000+12:00,Thong Kuah,278964,

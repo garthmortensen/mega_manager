@@ -1,0 +1,41 @@
+project_id,project_url,user_id,username,name,access_level,state
+1148549,https://gitlab.com/gitlab-com/runbooks,215818,tmaczukin,Tomasz Maczukin,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,429540,ahanselka,Alex Hanselka,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,367626,alejandro,Alejandro Rodríguez,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,506061,ahmadsherif,Ahmad Sherif,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,1254817,jarv,John Jarvis,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,2222520,dawsmith,Dave Smith,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,2336046,devin,Devin Sylva,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,2524675,skarbek,John Skarbek,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,194566,cmcfarland,Cameron McFarland,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,3623028,cmiskell,Craig Miskell,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,3947902,msmiley,Matt Smiley,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,4337537,ggillies,Graeme Gillies,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,876203,igorwwwwwwwwwwwwwwwwwwww,Igor,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,1906296,NikolayS,Nikolay Samokhvalov,30,active
+1148549,https://gitlab.com/gitlab-com/runbooks,171554,reprazent,Bob Van Landuyt,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,2620738,ops-gitlab-net,ops-gitlab-net,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,2360513,glopezfernandez,Gerardo Lopez-Fernandez,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,4411649,rehab,Rehab,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,210928,sxuereb,Steve Xuereb,40,active
+1148549,https://gitlab.com/gitlab-com/runbooks,9179861,pguinoiseau,Pierre Guinoiseau,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,215818,tmaczukin,Tomasz Maczukin,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,273486,jameslopez,James Lopez,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,1553458,gitlab-crowdin-bot,GitLab Crowdin Bot,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,1144264,mkozono,Michael Kozono,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,402401,jobbot,Bot,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,2133982,mattermost-support,Mattermost Support,10,active
+278964,https://gitlab.com/gitlab-org/gitlab,2321156,aoetama,Agnes Oetama,30,active
+278964,https://gitlab.com/gitlab-org/gitlab,655908,mlapierre,Mark Lapierre,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,272636,ddavison,Dan Davison,40,blocked
+278964,https://gitlab.com/gitlab-org/gitlab,2683848,eread,Evan Read,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,4339707,ohoral,Olena Horal-Koretska,30,active
+278964,https://gitlab.com/gitlab-org/gitlab,695248,leeeee-gtlb,Lee Matos,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,786106,lyle,Lyle Kozloff,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,2672834,jcolyer,Jason Colyer,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,3658061,rdickenson,Russell Dickenson,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,1749038,wortschi,Martin Wortschack,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,2950912,ntepluhina,Natalia Tepluhina,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,4785811,Ikosenko,Ilia Kosenko,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,113870,iamphill,Phil Hughes,40,active
+278964,https://gitlab.com/gitlab-org/gitlab,2620738,ops-gitlab-net,ops-gitlab-net,30,active
