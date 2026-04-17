@@ -122,3 +122,65 @@
 {"path": "output/events_20260415_220226.csv", "rows": 1000, "event": "storage.saved", "level": "info", "timestamp": "2026-04-16T03:02:26.170779Z"}
 {"path": "output/members_20260415_220226.csv", "rows": 40, "event": "storage.saved", "level": "info", "timestamp": "2026-04-16T03:02:26.172477Z"}
 {"repos_processed": 2, "tables_written": ["projects", "issues", "events", "members"], "output_files": ["output/projects_20260415_220226.csv", "output/issues_20260415_220226.csv", "output/events_20260415_220226.csv", "output/members_20260415_220226.csv"], "event": "scanner.done", "level": "info", "timestamp": "2026-04-16T03:02:26.172700Z"}
+{"base_url": "https://gitlab.com", "authenticated": true, "repos_file": "repos.txt", "output_dir": "output", "event": "scanner.start", "level": "info", "timestamp": "2026-04-17T01:57:52.230977Z"}
+{"count": 2, "event": "scanner.repos_loaded", "level": "info", "timestamp": "2026-04-17T01:57:52.232327Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "event": "fetch.project_info", "level": "info", "timestamp": "2026-04-17T01:57:52.232501Z"}
+{"url": "https://gitlab.com/api/v4/projects/gitlab-com%2Frunbooks", "event": "gitlab_api.get_project", "level": "info", "timestamp": "2026-04-17T01:57:52.232586Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.open_mr_count", "level": "info", "timestamp": "2026-04-17T01:57:52.717939Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/merge_requests", "project_id": 1148549, "event": "gitlab_api.get_open_mr_count", "level": "info", "timestamp": "2026-04-17T01:57:52.718305Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.latest_pipeline", "level": "info", "timestamp": "2026-04-17T01:57:53.229257Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/pipelines", "project_id": 1148549, "event": "gitlab_api.get_latest_pipeline", "level": "info", "timestamp": "2026-04-17T01:57:53.229637Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/pipelines", "status_code": 403, "event": "gitlab_api.http_error", "level": "error", "timestamp": "2026-04-17T01:57:53.536015Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.languages", "level": "info", "timestamp": "2026-04-17T01:57:53.539004Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/languages", "project_id": 1148549, "event": "gitlab_api.get_languages", "level": "info", "timestamp": "2026-04-17T01:57:53.539888Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.latest_commit", "level": "info", "timestamp": "2026-04-17T01:57:53.745754Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/repository/commits", "project_id": 1148549, "event": "gitlab_api.get_latest_commit", "level": "info", "timestamp": "2026-04-17T01:57:53.746138Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "errors": ["latest pipeline unavailable"], "event": "fetch.partial_errors", "level": "warning", "timestamp": "2026-04-17T01:57:54.048819Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "state": "all", "since": null, "limit": 100, "event": "fetch.issues", "level": "info", "timestamp": "2026-04-17T01:57:54.049213Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/issues", "page": 1, "project_id": 1148549, "event": "gitlab_api.get_issues", "level": "info", "timestamp": "2026-04-17T01:57:54.049332Z"}
+{"project_id": 1148549, "total": 100, "event": "gitlab_api.get_issues_done", "level": "info", "timestamp": "2026-04-17T01:57:55.298007Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "issues": 100, "notes": 0, "event": "fetch.issues_complete", "level": "info", "timestamp": "2026-04-17T01:57:55.299581Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.events", "level": "info", "timestamp": "2026-04-17T01:57:55.300106Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 1, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:57:55.300244Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 2, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:57:56.099088Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 3, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:57:57.019714Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 4, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:57:58.046286Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 5, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:57:59.070065Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/events", "page": 6, "project_id": 1148549, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:00.194794Z"}
+{"project_id": 1148549, "total": 500, "event": "gitlab_api.get_events_done", "level": "info", "timestamp": "2026-04-17T01:58:01.322804Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "events": 500, "event": "fetch.events_complete", "level": "info", "timestamp": "2026-04-17T01:58:01.325232Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "project_id": 1148549, "event": "fetch.members", "level": "info", "timestamp": "2026-04-17T01:58:01.325381Z"}
+{"url": "https://gitlab.com/api/v4/projects/1148549/members", "project_id": 1148549, "event": "gitlab_api.get_members", "level": "info", "timestamp": "2026-04-17T01:58:01.325448Z"}
+{"repo": "https://gitlab.com/gitlab-com/runbooks", "members": 20, "event": "fetch.members_complete", "level": "info", "timestamp": "2026-04-17T01:58:01.728960Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "event": "fetch.project_info", "level": "info", "timestamp": "2026-04-17T01:58:01.729286Z"}
+{"url": "https://gitlab.com/api/v4/projects/gitlab-org%2Fgitlab", "event": "gitlab_api.get_project", "level": "info", "timestamp": "2026-04-17T01:58:01.729363Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.open_mr_count", "level": "info", "timestamp": "2026-04-17T01:58:02.447609Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/merge_requests", "project_id": 278964, "event": "gitlab_api.get_open_mr_count", "level": "info", "timestamp": "2026-04-17T01:58:02.447771Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.latest_pipeline", "level": "info", "timestamp": "2026-04-17T01:58:02.856090Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/pipelines", "project_id": 278964, "event": "gitlab_api.get_latest_pipeline", "level": "info", "timestamp": "2026-04-17T01:58:02.856300Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.languages", "level": "info", "timestamp": "2026-04-17T01:58:03.316702Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/languages", "project_id": 278964, "event": "gitlab_api.get_languages", "level": "info", "timestamp": "2026-04-17T01:58:03.316850Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.latest_commit", "level": "info", "timestamp": "2026-04-17T01:58:03.571907Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/repository/commits", "project_id": 278964, "event": "gitlab_api.get_latest_commit", "level": "info", "timestamp": "2026-04-17T01:58:03.572071Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "event": "fetch.snapshot_complete", "level": "info", "timestamp": "2026-04-17T01:58:03.980857Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "state": "all", "since": null, "limit": 100, "event": "fetch.issues", "level": "info", "timestamp": "2026-04-17T01:58:03.981013Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/issues", "page": 1, "project_id": 278964, "event": "gitlab_api.get_issues", "level": "info", "timestamp": "2026-04-17T01:58:03.981110Z"}
+{"project_id": 278964, "total": 100, "event": "gitlab_api.get_issues_done", "level": "info", "timestamp": "2026-04-17T01:58:05.136162Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "issues": 100, "notes": 0, "event": "fetch.issues_complete", "level": "info", "timestamp": "2026-04-17T01:58:05.138238Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.events", "level": "info", "timestamp": "2026-04-17T01:58:05.138449Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 1, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:05.138636Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 2, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:06.651815Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 3, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:07.775189Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 4, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:09.412337Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 5, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:10.538773Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/events", "page": 6, "project_id": 278964, "event": "gitlab_api.get_events", "level": "info", "timestamp": "2026-04-17T01:58:12.895844Z"}
+{"project_id": 278964, "total": 500, "event": "gitlab_api.get_events_done", "level": "info", "timestamp": "2026-04-17T01:58:14.532975Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "events": 500, "event": "fetch.events_complete", "level": "info", "timestamp": "2026-04-17T01:58:14.535358Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "project_id": 278964, "event": "fetch.members", "level": "info", "timestamp": "2026-04-17T01:58:14.535503Z"}
+{"url": "https://gitlab.com/api/v4/projects/278964/members", "project_id": 278964, "event": "gitlab_api.get_members", "level": "info", "timestamp": "2026-04-17T01:58:14.535576Z"}
+{"repo": "https://gitlab.com/gitlab-org/gitlab", "members": 20, "event": "fetch.members_complete", "level": "info", "timestamp": "2026-04-17T01:58:14.939726Z"}
+{"table": "projects", "rows": 2, "db": "output/mega_manager.db", "event": "storage.saved", "level": "info", "timestamp": "2026-04-17T01:58:15.016438Z"}
+{"table": "issues", "rows": 200, "db": "output/mega_manager.db", "event": "storage.saved", "level": "info", "timestamp": "2026-04-17T01:58:15.042465Z"}
+{"table": "events", "rows": 1000, "db": "output/mega_manager.db", "event": "storage.saved", "level": "info", "timestamp": "2026-04-17T01:58:15.074414Z"}
+{"table": "members", "rows": 40, "db": "output/mega_manager.db", "event": "storage.saved", "level": "info", "timestamp": "2026-04-17T01:58:15.099104Z"}
+{"repos_processed": 2, "tables_written": ["projects", "issues", "events", "members"], "output_files": ["output/mega_manager.db"], "event": "scanner.done", "level": "info", "timestamp": "2026-04-17T01:58:15.099269Z"}

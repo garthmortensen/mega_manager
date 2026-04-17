@@ -60,6 +60,7 @@ LOG_FILE: str = "output/run.log"       # path for structured JSON log file
 
 def _configure_logging(debug: bool = False, log_file: str = "output/run.log") -> None:
     Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+    # no quality assurance on this file handle since it's only used by our custom structlog processor;
     _log_fh = open(log_file, "a", encoding="utf-8")  # noqa: SIM115
 
     shared_processors = [
@@ -107,6 +108,8 @@ def _fetch_snapshot(client: GitLabClient, repo_url: str) -> ProjectSnapshot:
 
     snapshot.project_id = project.get("id")
     snapshot.name_with_namespace = project.get("name_with_namespace", "")
+    # `or ""` guards against key-present-but-null (GitLab returns `"description": null`);
+    # `.get(key, "")` only substitutes when the key is entirely absent.
     snapshot.description = project.get("description") or ""
     snapshot.web_url = project.get("web_url", "")
     snapshot.visibility = project.get("visibility", "")
